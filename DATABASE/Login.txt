@@ -1,0 +1,23 @@
+Halaman Admin : http://localhost/NAMAFOLDER/administrator
+username : admin
+password : admin
+
+Halaman Kontributor : http://localhost/NAMAFOLDER/administrator
+username : kontributor
+password : kontributor
+
+
+Halaman Pelapak/Toko/Reseller : http://localhost/NAMAFOLDER/reseller
+username : reseller
+password : reseller
+
+username : reseller1
+password : reseller1
+
+username : reseller2
+password : reseller2
+
+
+Halaman Konsumen : http://localhost/NAMAFOLDER/auth/login
+username : pembeli
+password : pembeli

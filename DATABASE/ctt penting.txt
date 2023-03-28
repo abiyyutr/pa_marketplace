@@ -1,0 +1,19 @@
+UPDATE 15 OKTOBER 2020:
+Jika ada sistem yang tidak berjalan normal, maka perbaiki dengan cara dibawah ini, sejauh ini/oktober 2020 tidak ada sistem yang bermasalah.
+
+
+Aktifkan internet jika:
+- terdapat fitur yang terlihat error
+- ongkos kirim tidak terload
+- gambar tidak terload
+- tombol pembayaran tidak aktif
+
+MASALAH DAN SOLUSI :
+- Kurir dan Service tidak muncul:
+Itu karena API rajaongkir yang lama sudah off, jadi ganti saja dengan yang baru.
+1. Silahkan daftar akun di RajaOngkir.com untuk mendapatkan API Key (free).
+2. Buka file application->config->rajaongkir.php
+3. Cari dan ganti $config['rajaongkir_api_key'] = "d2f95f678fa44c587dea727c7af7ae7f"; dengan API KEY yang baru
+ 
+- Tombol COD yang tidak muncul:
+Kemungkinan besar karena si Pelapak/reseller belum mengisikan data COD pada dashboard pelapak/resellernya, yang akhirnya tidak ada data yang muncul.
